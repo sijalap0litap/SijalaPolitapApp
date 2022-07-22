@@ -1,0 +1,30 @@
+
+// work
+
+.work {
+    .work-pra {
+        ul {
+            padding: 0;
+            li {
+                padding-top: 10px;
+                i {
+                    float: left;
+                    font-size: 34px;
+                    margin-right: 20px;
+                }
+                &:hover {
+                    i {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+body[data-layout-mode="dark"] {
+    .work {
+        background-color: $body-dark-bg !important;
+        color: $white;
+    }
+}

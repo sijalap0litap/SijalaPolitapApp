@@ -1,0 +1,72 @@
+// 
+// footer.scss
+// 
+
+.footer{
+    padding-bottom: 76px;
+    .footer-icon{
+        a{
+            border: 1px dashed rgba($muted, 0.5);
+            border-radius: 50%;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .footer-item{
+        li{
+            padding-bottom: 8px;
+        }
+    }
+    .form-control {
+        height: 56px;
+        border: 1px solid rgba($dark, 0.1);
+        // color: #ffffff;
+        &:hover,
+        &:focus{
+            box-shadow: none !important;
+        }
+    }
+    .input-group-text{
+        border: none !important;
+    }
+
+    .footer-center-border{
+        border-bottom: 1px dashed rgba($dark, 0.2) !important;
+    }
+    .footer-link{
+        li{
+            margin-top: 18px;
+            a{
+                color: rgba($dark, 0.5) !important;
+            }
+
+        }
+    }
+}
+
+
+
+
+body[data-layout-mode="dark"] {
+    .footer {
+        background-color: $dark !important;
+        color: $white !important;
+
+        .footer-icon{
+            i{
+                color: $white !important;
+            }
+        }
+        .footer-link {
+            li {
+                a {
+                    color: rgba($white, 0.5) !important;
+                }
+            }
+        }
+    }
+    .bottom-footer{
+        background-color: $body-dark-bg !important;
+    }
+}

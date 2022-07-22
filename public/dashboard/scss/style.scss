@@ -1,0 +1,36 @@
+/* Template Name: 
+   File Description: Main Css file of the template
+*/
+
+/****************************************
+
+01.variables
+02.general
+03.helper
+04.components
+05.menu
+06.home
+
+*****************************************/
+
+@import "variables";
+@import "switcher";
+@import "responsive";
+@import "menu";
+@import "helper";
+@import "general";
+@import "components";
+@import "badge";
+@import "dark_light";
+@import "home";
+@import "about";
+@import "features";
+@import "topbar";
+@import "pricing";
+@import "testimonial";
+@import "work";
+@import "team";
+@import "cta";
+@import "contact";
+@import "footer";
+
