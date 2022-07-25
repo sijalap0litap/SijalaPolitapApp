@@ -8,7 +8,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Data Peminjaman</h3>
+                            <h3 class="card-title">Data Keluhan</h3>
                             <button class="btn btn-dark float-right" data-toggle="modal" data-target="#modal-lg"><i
                                     class="fa fa-plus"></i> Masukan Keluhan </button>
 
